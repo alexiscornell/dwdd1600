@@ -29,16 +29,16 @@ nav ul{
     display: flex;
 }
 nav a {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-decoration: none;
-    color: #9fbfb0;
+    color: #fff;
     font-weight: 700;
     display: block;
-    padding: .83rem 2rem;
+    padding: .84rem 2.1rem;
 }
 nav li.active a{
     background-color: #728c11;
-    color:  #fff;
+    color:  #014040;
 }
 nav a:hover{
     color: #fff;
