@@ -166,6 +166,8 @@ footer a{
     padding: .3rem;
     width: 250px;
     border-radius: .3rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
     
 }
 .form textarea {
