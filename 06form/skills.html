@@ -44,47 +44,57 @@
             
         <fieldset>
         <legend>Group Size</legend>   
-        <label><input type="radio" name="method" value="small">Small (1-4 riders)</label>  
-        <label><input type="radio" name="method" value="medium">Medium (5-10 riders) </label>  
-        <label><input type="radio" name="method" value="large">Large (10 or more riders)</label>  
+        <label><input type="radio" name="size" value="small">Small (1-4 riders)</label>  
+        <label><input type="radio" name="size" value="medium">Medium (5-10 riders) </label>  
+        <label><input type="radio" name="size" value="large">Large (10 or more riders)</label>  
         </fieldset>
             
         <fieldset>
         <legend>Select a Day</legend>   
-        <label><input type="radio" name="monday" value="Monday">Monday</label>  
-        <label><input type="radio" name="tuesday" value="Tuesday">Tuesday</label>  
-        <label><input type="radio" name="wednesday" value="Wednesday">Wednesday</label> 
-        <label><input type="radio" name="thursday" value="Thursday">Thursday</label> 
-        <label><input type="radio" name="friday" value="Friday">Friday</label> 
-        <label><input type="radio" name="saturday" value="Saturday">Saturday</label> 
+        <label><input type="radio" name="day" value="Monday">Monday</label>  
+        <label><input type="radio" name="day" value="Tuesday">Tuesday</label>  
+        <label><input type="radio" name="day" value="Wednesday">Wednesday</label> 
+        <label><input type="radio" name="day" value="Thursday">Thursday</label> 
+        <label><input type="radio" name="day" value="Friday">Friday</label> 
+        <label><input type="radio" name="day" value="Saturday">Saturday</label> 
         </fieldset>
             
         <fieldset>
         <legend>Select a Time</legend>   
-        <label><input type="radio" name="8am" value="8 am">8 am</label>  
-        <label><input type="radio" name="11am" value="11 am">11 am</label>  
-        <label><input type="radio" name="1pm" value="1 pm">1 pm</label> 
-        <label><input type="radio" name="4pm" value="4 pm">4 pm</label> 
+        <label><input type="radio" name="time" value="8 am">8 am</label>  
+        <label><input type="radio" name="time" value="11 am">11 am</label>  
+        <label><input type="radio" name="time" value="1 pm">1 pm</label> 
+        <label><input type="radio" name="time" value="4 pm">4 pm</label> 
         </fieldset>
             
         <fieldset>
         <legend>Current Skill Level</legend> 
-        <label><input type="checkbox" name="first" value="chosen">First Time on the Trails</label>
-        <label><input type="checkbox" name="beginner" value="chosen">Beginner</label>   
-        <label><input type="checkbox" name="intermediate" value="chosen">Intermediate</label>   
-        <label><input type="checkbox" name="expert" value="chosen">Expert</label>
+        <label><input type="radio" name="level" value="first">First Time on the Trails</label>
+        <label><input type="radio" name="level" value="beginner">Beginner</label>   
+        <label><input type="radio" name="level" value="intermediate">Intermediate</label>   
+        <label><input type="radio" name="level" value="expert">Expert</label>
         
         <label>Preferred Trail Type    
         <select name="time">
         <option value="none">Please Select</option>   
-        <option value="morning">Downhill</option>
-        <option value="noon">Uphill</option>
-        <option value="afternoon">Enduro</option> 
-        <option value="evening">Technical</option> 
+        <option value="downhill">Downhill</option>
+        <option value="uphill">Uphill</option>
+        <option value="enduro">Enduro</option> 
+        <option value="technical">Technical</option> 
         </select>
         </label>
             
         </fieldset> 
+            
+        <fieldset>
+        <legend>Rental Gear Needed</legend>   
+        <label><input type="checkbox" name="bike" value="bike">Bike</label>  
+        <label><input type="checkbox" name="helmet" value="helmet">Helmet</label>  
+        <label><input type="checkbox" name="shoes" value="shoes">Shoes</label> 
+        <label><input type="checkbox" name="camelback" value="camelback">Camelback</label> 
+        <label><input type="checkbox" name="sunglasses" value="sunglasses">Sunglasses</label> 
+        <label><input type="checkbox" name="gloves" value="gloves">Gloves</label> 
+        </fieldset>
             
         <label>Comments
             <textarea name="comments"></textarea>
