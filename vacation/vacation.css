@@ -1,0 +1,252 @@
+/*prevent problems with different browsers*/
+* {box-sizing: border-box;}
+
+
+body {
+   font-family: "ivypresto-headline", serif;
+   font-weight: 400;
+   font-style: normal;
+}
+/* Header Stuff Here*/
+header {
+    background-color: #D5E5F2;
+    padding: 1rem 2%;
+    display: flex;
+    align-items: flex-end;
+}
+header div {
+    padding-left: 1vw;
+}
+header h1{
+    margin: 0;
+    color: #6AB9D9;
+}
+header p{
+    margin: 0;
+    color: #BF9169;
+    letter-spacing: .5px;
+}
+/* nav stuff goes here */
+
+/*small screens*/
+@media only screen and (max-width: 600px) {
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+        
+    }
+    nav a {
+        display: block;
+        padding: .8rem;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: solid 1px #6AB9D9;
+        color: #F2CDAC;
+    }
+    nav .active a {
+        background-color: #F2CDAC;
+        background-image: linear-gradient(#6AB9D9,#D5E5F2);
+        color: white;
+    }
+    
+    
+} /*end of the media query*/
+
+/*BIG screens*/
+@media only screen and (min-width: 601px) {
+    nav{
+    background-color: #F2CDAC;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    display: block;
+    padding: .84rem 2.1rem;
+}
+nav li.active a{
+    background-color: #F2A950;
+    color:  #fff;
+}
+nav a:hover{
+    color: #BF9169;
+    
+}
+} /*end of the media query*/
+
+
+
+/*stuff for the main*/
+main{
+   padding: 1rem 2vw; 
+    
+}
+main h1 {
+    color: #6AB9D9;
+    
+}
+main h2 {
+    color: #F2A950;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #000;
+    margin: 0 0 .3rem 0;
+}
+main ol{
+    padding: .5rem 3vw;
+    background-color: #F2CDAC;
+}
+ 
+
+
+main ul{
+    list-style-type: circle;
+    
+}
+main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+    
+
+main a {
+    color: #6AB9D9;
+    
+}
+main a:hover {
+    color: #000;
+    
+}
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+    
+} 
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+    
+}    
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+    
+} 
+
+.beachhero {
+    width: 100%;
+    margin: 0;
+}
+
+.beachhero img {
+    width: 100%;
+    height: auto;
+}
+ 
+
+.packageshero {
+    width: 100%;
+    margin: 0;
+}
+
+.packageshero img {
+    width: 100%;
+    height: auto;
+    margin-top: 2.5rem;
+}
+
+
+
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #014040;
+}
+div.gallery img:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+
+/* Footer Stuff Here */
+footer{
+    background-color: #D5E5F2;
+    text-align: center;
+    color: #000;
+    padding: 1rem 0;
+    font-size: .8rem;
+       
+}
+footer a{
+    color: #6AB9D9;
+    
+}
+
+.form fieldset, .form select {
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+.form legend {
+    color: #000;
+    font-size: .8rem;
+}
+.form label {
+    margin: .5rem;
+} 
+.form label, .form select, .form [type=text], .form [type=email], .form [type=tel], form textarea  {
+    display: block;
+}
+.form [type=text], .form [type=tel], .form [type=email], .form select, .form textarea {
+    border: solid 1px #888;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: "ivypresto-headline", serif;
+   font-weight: 400;
+   font-style: normal;
+    
+}
+.form textarea {
+    height: 10rem;
+    width: 35rem;
+}
+.form :required{
+    background-color: #F2CDAC;
+}
+.form [type=submit] {
+    background-color: #D5E5F2;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: #6AB9D9;
+    margin: 1rem 0 0 1vw;
+}
+
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
+}

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>Budget Vacations: Home</title>
+        <meta name="description" content="Learn about Ridge Rock Bike Haven">
+        <meta name="author" content="Alexis Cornell">
+        <link rel="stylesheet" href="vacation.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+          
+            <div>
+            <h1>Budget Vacations</h1>
+            <p>Explore More, Spend Less</p>
+            </div>
+        </header>
+        <!-- Start of the page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Budget Vacations</a></li>
+                <li><a href="destination.html">Destinations</a></li>
+                <li><a href="video.html">Video Clip</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li class="active"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+       <!-- Start of the page content -->
+        <main>
+        <h1>Contact Us</h1>
+         
+        <form method="get" class="my form" action="thanks.html">
+        
+        <fieldset>
+        <legend>Your Contact Information</legend>
+        <label>First Name*<input type="text" name="fname" required></label> 
+        <label>Last Name*<input type="text" name="lname" required></label>
+        <label>Email*<input type="email" name="email" required></label>
+        <label>Phone Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label> 
+        </fieldset>   
+            
+        <fieldset>
+        <legend>How would you like us to contact you?</legend>   
+        <label><input type="radio" name="size" value="email">Email</label>  
+        <label><input type="radio" name="size" value="phone">Phone Call</label>  
+        <label><input type="radio" name="size" value="text">Text Message</label>  
+        </fieldset>
+            
+            
+        <label>Preferred time of day for us to reach out to you    
+        <select name="time">
+        <option value="none">Please Select</option>   
+        <option value="morning">Morning</option>
+        <option value="afternoon">Afternoon</option>
+        <option value="evening">Evening</option> 
+        </select>
+        </label>
+            
+            
+        <label>What is your question?
+            <textarea name="questions"></textarea>
+        
+        </label>
+        
+            
+            
+        <input type="submit" value="Submit Your Question">
+        </form>
+
+        </main>
+        <!-- Start of the page footer -->
+        <footer>
+        <p>&copy; 2024 &bull; Alexis Cornell &bull; <a href="mailto:alexiscornell02@gmail.com">Email Us</a></p>
+        </footer>
+
+    </body>
